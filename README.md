@@ -24,7 +24,7 @@ rosrun map_server map_saver -f map
 ```
 
 Here is an vedio example
-![image](https://github.com/RUOKUNH/moving-robot/tree/main/vedio/slam 00_00_00-00_00_30.gif)
+![image](https://github.com/RUOKUNH/moving-robot/tree/main/vedio/slam.gif)
 # do navigation in the map
 open environment by: 
 ```
@@ -39,4 +39,4 @@ After relocalization, do navigation nearby to recognize the local environment.
 Then you can do navigation in any position of the map.
 
 Here is an vedio example
-![image](https://github.com/RUOKUNH/moving-robot/tree/main/vedio/final 00_00_00-00_00_30.gif)
+![image](https://github.com/RUOKUNH/moving-robot/tree/main/vedio/navigation.gif)
