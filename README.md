@@ -23,8 +23,8 @@ after finishing slam, clear files in src/turtlebot3/turtlebot3_navigation/maps a
 rosrun map_server map_saver -f map
 ```
 
-Here is an example vedio
-
+Here is an vedio example
+![image](https://github.com/RUOKUNH/moving-robot/tree/main/vedio/slam 00_00_00-00_00_30.gif)
 # do navigation in the map
 open environment by: 
 ```
@@ -37,3 +37,6 @@ roslaunch turtlebot3_navigation turtlebot3_navigation.launch
 At beginning, the position in rviz and gazebo are different. We need to relocalize the moving robot first, by pressing the pose estimation button in rviz and choose a proper poition to put the robot.
 After relocalization, do navigation nearby to recognize the local environment.
 Then you can do navigation in any position of the map.
+
+Here is an vedio example
+![image](https://github.com/RUOKUNH/moving-robot/tree/main/vedio/final 00_00_00-00_00_30.gif)
